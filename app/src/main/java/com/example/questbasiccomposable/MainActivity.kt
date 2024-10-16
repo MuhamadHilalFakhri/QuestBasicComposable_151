@@ -61,7 +61,8 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         Text("Nama",
             fontSize = 25.sp)
         Text("Muhamad Hilal Fakhri")
-        Text("20220140151")
+        Text("20220140151",
+            fontSize = 30.sp)
 
     }
 }
