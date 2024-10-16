@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import com.example.questbasiccomposable.ui.theme.QuestBasicComposableTheme
 
 class MainActivity : ComponentActivity() {
@@ -36,7 +37,7 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .) {
+            .padding(top = 50.dp)) {
 
     }
 }
