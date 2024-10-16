@@ -53,6 +53,7 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
 
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = "")
+        Spacer(modifier = Modifier.padding(3.dp))
     }
 }
 
