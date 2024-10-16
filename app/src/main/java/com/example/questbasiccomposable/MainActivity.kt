@@ -18,6 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -48,7 +49,8 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
             .padding(top = 50.dp)) {
         Text("Login",
             fontSize = 75.sp,
-            fontWeight = FontWeight.Bold)
+            fontWeight = FontWeight.Bold,
+            color = Color.DarkGray)
         Spacer(modifier = Modifier.padding(2.dp))
         Text("Ini Adalah Halaman Login")
 
