@@ -59,7 +59,8 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         Spacer(modifier = Modifier.padding(3.dp))
 
         Text("Nama",
-            fontSize = 30.sp)
+            fontSize = 25.sp)
+        Text("Muhamad Hilal Fakhri")
 
     }
 }
