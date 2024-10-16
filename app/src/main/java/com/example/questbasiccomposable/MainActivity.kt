@@ -31,6 +31,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun QuestBasicComposable(modifier: Modifier = Modifier ){
+
+}
+
+@Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
