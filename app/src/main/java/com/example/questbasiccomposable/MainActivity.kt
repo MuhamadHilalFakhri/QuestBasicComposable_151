@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -43,6 +44,8 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         Text("Login",
             fontSize = 75.sp,
             fontWeight = FontWeight.Bold)
+        Spacer(modifier = Modifier.padding(10.dp))
+        Text("Ini Adalah Halaman Login")
     }
 }
 
