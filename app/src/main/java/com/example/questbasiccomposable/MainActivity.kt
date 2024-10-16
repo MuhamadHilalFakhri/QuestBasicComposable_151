@@ -64,6 +64,8 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         Text("20220140151",
             fontSize = 30.sp)
 
+        Spacer(modifier = Modifier.padding(3.dp))
+
         Image(painter = painterResource(id = R.drawable.foto),
             contentDescription = "",
             modifier = Modifier.size(250.dp))
