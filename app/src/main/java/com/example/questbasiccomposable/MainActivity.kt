@@ -46,6 +46,7 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
             fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.padding(2.dp))
         Text("Ini Adalah Halaman Login")
+        Spacer(modifier = Modifier.padding(7.dp))
     }
 }
 
