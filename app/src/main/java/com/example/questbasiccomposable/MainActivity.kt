@@ -23,10 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestBasicComposableTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    QuestBasicComposable(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
