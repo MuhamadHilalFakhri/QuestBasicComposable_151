@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -52,11 +53,13 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         Spacer(modifier = Modifier.padding(7.dp))
 
         Image(painter = painterResource(id = R.drawable.umy),
-            contentDescription = "")
+            contentDescription = "",
+            modifier = Modifier.size(275.dp))
 
         Spacer(modifier = Modifier.padding(3.dp))
 
-        Text("Nama")
+        Text("Nama",
+            fontSize = 30.sp)
 
     }
 }
