@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable.ui.theme.QuestBasicComposableTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,7 +39,8 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 50.dp)) {
-        Text("Login")
+        Text("Login",
+            fontSize = 75.sp)
     }
 }
 
