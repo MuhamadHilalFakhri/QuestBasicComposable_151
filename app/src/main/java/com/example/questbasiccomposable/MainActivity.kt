@@ -38,7 +38,7 @@ fun QuestBasicComposable(modifier: Modifier = Modifier ){
         modifier = Modifier
             .fillMaxSize()
             .padding(top = 50.dp)) {
-
+        Text("Login")
     }
 }
 
