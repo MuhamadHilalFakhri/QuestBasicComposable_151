@@ -32,7 +32,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun QuestBasicComposable(modifier: Modifier = Modifier ){
-    Column (horizontalAlignment = Alignment.CenterHorizontally) {
+    Column (horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top) {
 
     }
 }
